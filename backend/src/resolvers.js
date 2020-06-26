@@ -10,7 +10,7 @@ const users = [
 module.exports = {
     Query: {
         users: () => users,
-        users: () => users[0],
+        user: () => users[1],
     },
     Mutation: {
         createUser: () => users[0],
